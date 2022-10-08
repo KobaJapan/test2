@@ -1,0 +1,313 @@
+Last login: Fri Oct  7 23:42:26 on ttys001
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git config --global user.name "Hayato Kobayashi"  
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git config --global user.email "hayakoba.0819@gmail.com"
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git config --list
+credential.helper=osxkeychain
+init.defaultbranch=main
+user.name=Hayato Kobayashi
+user.email=hayakoba.0819@gmail.com
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git init
+Initialized empty Git repository in /Users/kobayashihayato/.git/
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git status
+warning: could not open directory '.Trash/': Operation not permitted
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.CFUserTextEncoding
+	.DS_Store
+	.bash_history
+	.bash_profile
+	.bash_profile.swk
+	.bash_profile.swl
+	.bash_profile.swm
+	.bash_profile.swn
+	.bash_profile.swo
+	.bash_profile.swp
+	.bash_profile~
+	.config/
+	.cups/
+	.gitconfig
+	.kivy/
+	.lesshst
+	.python_history
+	.swiftpm/
+	.tcshrc
+	.thumbnails/
+	.viminfo
+	.vscode/
+	.xonshrc
+	.zprofile
+	.zsh_history
+	.zsh_sessions/
+	.zshrc
+	Applications/
+	Cpro basic/
+	Cpro/
+	Creative Cloud Files/
+	Desktop/
+	Documents/
+	Downloads/
+	Library/
+	Local Sites/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	datascience.py
+	spamdata1000.csv
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % touch REAME.md
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git status
+warning: could not open directory '.Trash/': Operation not permitted
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.CFUserTextEncoding
+	.DS_Store
+	.bash_history
+	.bash_profile
+	.bash_profile.swk
+	.bash_profile.swl
+	.bash_profile.swm
+	.bash_profile.swn
+	.bash_profile.swo
+	.bash_profile.swp
+	.bash_profile~
+	.config/
+	.cups/
+	.gitconfig
+	.kivy/
+	.lesshst
+	.python_history
+	.swiftpm/
+	.tcshrc
+	.thumbnails/
+	.viminfo
+	.vscode/
+	.xonshrc
+	.zprofile
+	.zsh_history
+	.zsh_sessions/
+	.zshrc
+	Applications/
+	Cpro basic/
+	Cpro/
+	Creative Cloud Files/
+	Desktop/
+	Documents/
+	Downloads/
+	Library/
+	Local Sites/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	REAME.md
+	datascience.py
+	spamdata1000.csv
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git add README.md
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git status
+warning: could not open directory '.Trash/': Operation not permitted
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.CFUserTextEncoding
+	.DS_Store
+	.bash_history
+	.bash_profile
+	.bash_profile.swk
+	.bash_profile.swl
+	.bash_profile.swm
+	.bash_profile.swn
+	.bash_profile.swo
+	.bash_profile.swp
+	.bash_profile~
+	.config/
+	.cups/
+	.gitconfig
+	.kivy/
+	.lesshst
+	.python_history
+	.swiftpm/
+	.tcshrc
+	.thumbnails/
+	.viminfo
+	.vscode/
+	.xonshrc
+	.zprofile
+	.zsh_history
+	.zsh_sessions/
+	.zshrc
+	Applications/
+	Cpro basic/
+	Cpro/
+	Creative Cloud Files/
+	Desktop/
+	Documents/
+	Downloads/
+	Library/
+	Local Sites/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	datascience.py
+	spamdata1000.csv
+
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git commit -m "First commit"
+[main (root-commit) c355581] First commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git commit  "First commit"
+error: pathspec 'First commit' did not match any file(s) known to git
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git commit
+warning: could not open directory '.Trash/': Operation not permitted
+warning: could not open directory '.Trash/': Operation not permitted
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.CFUserTextEncoding
+	.DS_Store
+	.bash_history
+	.bash_profile
+	.bash_profile.swk
+	.bash_profile.swl
+	.bash_profile.swm
+	.bash_profile.swn
+	.bash_profile.swo
+	.bash_profile.swp
+	.bash_profile~
+	.config/
+	.cups/
+	.gitconfig
+	.kivy/
+	.lesshst
+	.python_history
+	.swiftpm/
+	.tcshrc
+	.thumbnails/
+	.viminfo
+	.vscode/
+	.xonshrc
+	.zprofile
+	.zsh_history
+	.zsh_sessions/
+	.zshrc
+	Applications/
+	Cpro basic/
+	Cpro/
+	Creative Cloud Files/
+	Desktop/
+	Documents/
+	Downloads/
+	Library/
+	Local Sites/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	datascience.py
+	spamdata1000.csv
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git log    
+commit c355581f33c19e92516ab61299d91b6a48e81a40 (HEAD -> main)
+Author: Hayato Kobayashi <hayakoba.0819@gmail.com>
+Date:   Sat Oct 8 13:48:48 2022 +0900
+
+    First commit
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % git version
+git version 2.37.0 (Apple Git-136)
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % mkdir test
+(base) kobayashihayato@kobayashinoMacBook-Pro ~ % cd test
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git init
+Initialized empty Git repository in /Users/kobayashihayato/test/.git/
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git init
+Reinitialized existing Git repository in /Users/kobayashihayato/test/.git/
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git add ex2.c
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git commit -m "[Add] ex2" 
+[main (root-commit) a4fb340] [Add] ex2
+ 1 file changed, 29 insertions(+)
+ create mode 100644 ex2.c
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git log
+commit a4fb340d90229ebe0bb3f4681e2b0eb3d47f2227 (HEAD -> main)
+Author: Hayato Kobayashi <hayakoba.0819@gmail.com>
+Date:   Sat Oct 8 15:35:37 2022 +0900
+
+    [Add] ex2
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git remote add origin https://github.com/KobaJapan/test.git
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/KobaJapan/test.git'
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git remote add origin https://github.com/KobaJapan/test
+error: remote origin already exists.
+(base) kobayashihayato@kobayashinoMacBook-Pro test %  git remote set-url origin https://github.com/KobaJapan/test
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/KobaJapan/test'
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git remote -v
+origin	https://github.com/KobaJapan/test (fetch)
+origin	https://github.com/KobaJapan/test (push)
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/KobaJapan/test'
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git branch 
+* main
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git checkout -b 'feature-A'
+Switched to a new branch 'feature-A'
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git branch
+* feature-A
+  main
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git add README.md
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git commit -m "Add feature-A"
+[feature-A a6f687d] Add feature-A
+ 1 file changed, 3 insertions(+)
+ create mode 100644 README.md
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git checkout main
+Switched to branch 'main'
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git checkout feature-A
+Switched to branch 'feature-A'
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git checkout main     
+Switched to branch 'main'
+(base) kobayashihayato@kobayashinoMacBook-Pro test % git merge --no-ff feature-A
+hint: Waiting for your editor to close the file... 
+Merge branch 'feature-A'
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+"~/test/.git/MERGE_MSG" 6L, 251B
